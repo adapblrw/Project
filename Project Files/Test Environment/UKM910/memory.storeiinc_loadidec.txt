@@ -1,0 +1,22 @@
+8011 ; LOAD 011    : ACC    = 18
+B000 ; STORER 0    : SP     = 18
+B020 ; STOREIINC 0 : [SP]   = 18, SP++
+A000 ; LOADR 0     : ACC    = 19
+B001 ; STORER 1    : PTR1   = 19
+B021 ; STOREIINC 1 : [PTR1] = 19, PTR1++
+A001 ; LOADR 1     : ACC    = 20
+B002 ; STORER 2    : PTR2   = 20
+B022 ; STOREIINC 2 : [PTR2] = 20, PTR2++
+A002 ; LOADR 2     : ACC    = 21
+B003 ; STORER 3    : PTR3   = 21
+B023 ; STOREIINC 3 : [PTR3] = 21, PTR3++
+A003 ; LOADR 3     : ACC    = 22
+A033 ; LOADIDEC 3  : PTR3--, ACC = [PTR3] (21)
+A032 ; LOADIDEC 2  : PTR2--, ACC = [PTR2] (20)
+A031 ; LOADIDEC 1  : PTR1--, ACC = [PTR1] (19)
+A030 ; LOADIDEC 0  : SP--,   ACC = [SP]   (18)
+0012 ; constant @ 17 (0x011)
+0000 ;
+0000 ;
+0000 ;
+0000 ;

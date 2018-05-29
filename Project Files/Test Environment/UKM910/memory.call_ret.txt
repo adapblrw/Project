@@ -1,0 +1,14 @@
+800B ; LOAD 00B : ACC = 13
+B000 ; STORER 0 : SP  = 13
+F006 ; CALL 006
+100A ; ADD  00A : ACC = 3
+0000 ;
+0000 ;
+800A ; LOAD 00A : ACC = 1
+100A ; ADD  00A : ACC = 2
+A100 ; RET
+0000 ;
+0001 ; constant @ 10 (0x00A)
+000D ; constant @ 11 (0x00B)
+0000 ;
+0000 ;

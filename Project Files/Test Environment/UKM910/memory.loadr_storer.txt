@@ -1,0 +1,23 @@
+8015 ; LOAD 015 : ACC  =  1
+B000 ; STORER 0 : SP   =  1
+1015 ; ADD 015  : ACC  =  2
+B001 ; STORER 1 : PTR1 =  2
+1015 ; ADD 015  : ACC  =  3
+B002 ; STORER 2 : PTR2 =  3
+1015 ; ADD 015  : ACC  =  4
+B003 ; STORER 3 : PTR3 =  4
+1016 ; ADD 016  : ACC  = 16
+B004 ; STORER 4 : PSW  = 16
+1015 ; ADD 015  : ACC  = 17
+B005 ; STORER 5 : IEN  = 17
+1015 ; ADD 015  : ACC  = 18
+B006 ; STORER 6 : IFLAG= 18
+A000 ; LOADR 0  : ACC  =  1
+A001 ; LOADR 1  : ACC  =  2
+A002 ; LOADR 2  : ACC  =  3
+A003 ; LOADR 3  : ACC  =  4
+A004 ; LOADR 4  : ACC  = 16
+A005 ; LOADR 5  : ACC  = 17
+A006 ; LOADR 6  : ACC  = 18
+0001 ; constant @ 21 (0x015)
+000C ; constant @ 22 (0x016)
